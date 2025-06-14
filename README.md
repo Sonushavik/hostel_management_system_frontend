@@ -44,7 +44,10 @@ npm install
 Create a .env file in the root directory and add:
 
 VITE_API_BASE_URL=http://localhost:5000/api
-backend-code : https://github.com/Sonushavik/hostel_management_system_backend
+
+
+## backend-code :
+https://github.com/Sonushavik/hostel_management_system_backend
 
 type in terminal npm run dev
 
