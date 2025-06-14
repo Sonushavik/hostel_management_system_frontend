@@ -52,3 +52,8 @@ https://github.com/Sonushavik/hostel_management_system_backend
 type in terminal npm run dev
 
 
+## checkout jkt hostel documentation
+https://documenter.getpostman.com/view/39027982/2sB2x6nsUS
+
+
+
