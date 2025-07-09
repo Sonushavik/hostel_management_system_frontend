@@ -44,16 +44,19 @@ const Banner = () => {
 					</div>
 				</div>
 
-				<button className="w-[30%] bg-black text-white p-3 font-bold rounded">
-          			{isLoggedIn ? <NavLink to="/applicationForm">Application Form</NavLink> : <NavLink to="/login">Apply for Hostel</NavLink>}
-				</button><br/><br/>
+{/* 				<button className="w-[30%] bg-black text-white p-3 font-bold rounded"> */}
+          			{isLoggedIn ? <NavLink to="/applicationForm"><button className="w-[30%] bg-black text-white p-3 font-bold rounded">Application Form</button></NavLink> 
+				: 
+				<NavLink to="/login"><button className="w-[30%] bg-black text-white p-3 font-bold rounded">Apply for Hostel</button></NavLink>}
+{/* 				</button> */}
+				<br/><br/>
 
 				{
 					(isLoggedIn && user.isAdmin) 
 					?
-					<button className="w-[30%] bg-black text-white p-3 font-bold rounded">
-						<NavLink to="/admin/users">Dashboard</NavLink>
-					</button>
+					// <button className="w-[30%] bg-black text-white p-3 font-bold rounded">
+						<NavLink to="/admin/users"><button className="w-[30%] bg-black text-white p-3 font-bold rounded">Dashboard</button></NavLink>
+					// </button>
 					:
 					""
 				}
